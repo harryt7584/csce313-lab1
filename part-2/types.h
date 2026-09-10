@@ -3,6 +3,7 @@
 
 #include <cstring>
 #include <stdexcept>
+#include <vector>
 
 const int MAX_ACCOUNTS = 100;
 const int MAX_TRANSACTIONS = 100;
@@ -20,7 +21,8 @@ public:
     int id;
     double balance;
     bool active;
-    Transaction* transactions;
+    //Transaction* transactions;
+    std::vector<Transaction> transactions; // more memory efficient container
     int transactionCount;
     
     Account() {
@@ -28,31 +30,32 @@ public:
         balance = 0;
         active = false;
         transactionCount = 0;
-       	transactions = nullptr;
+       	//transactions = nullptr;
     }
     
     Account(int i): id(i) {
         active = true;
         balance = 0;
         transactionCount = 0;
-	transactions = nullptr;
+	//transactions = nullptr;
     }
 
     Account& operator=(const Account& other) {
         if (this != &other) {
-            delete[] transactions; 
+            //delete[] transactions; 
             
             id = other.id;
             balance = other.balance;
             active = other.active;
             transactionCount = other.transactionCount;
-	    transactions = new Transaction[MAX_TRANSACTIONS]; // intializing array for constructor
+	    //transactions = new Transaction[MAX_TRANSACTIONS]; // intializing array for constructor
+	    transactions.resize(MAX_TRANSACTIONS);
         }
         return *this;
     }
     
     ~Account() {
-	    delete[] transactions; // destructor to deallocate memory
+	    //delete[] transactions; // destructor to deallocate memory
     }
     
     bool addTransaction(double amount, const char* desc) {
@@ -71,7 +74,8 @@ public:
 // Bank class declaration
 class Bank {
 private:
-    Account* accounts;
+    //Account* accounts;
+    std::vector<Account> accounts;
     int accountCount;
 
 public:

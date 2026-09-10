@@ -1,13 +1,14 @@
 #include "types.h"
 
 Bank::Bank() {
-    accounts = new Account[MAX_ACCOUNTS];
+    //accounts = new Account[MAX_ACCOUNTS];
+    accounts.resize(MAX_ACCOUNTS);
     accountCount = 0;
     current_account = nullptr;
 }
 
 Bank::~Bank() {
-    delete[] accounts;
+    //delete[] accounts;
 }
 
 bool Bank::login(int id) {
@@ -28,8 +29,8 @@ bool Bank::login(int id) {
 
 void Bank::logout() {
     // Task 5: Double free potential
-   // delete current_account;
-    current_account = nullptr; // setting a deallocated memory to nullptr
+    //delete current_account;
+    current_account = nullptr;
 }
 
 bool Bank::deposit(double amount) {
