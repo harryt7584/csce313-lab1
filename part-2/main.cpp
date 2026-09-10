@@ -57,7 +57,7 @@ int main() {
                     
                     double amount;
                     std::cout << "Enter amount to deposit: ";
-                    std::cin >> amount;
+                    std::cin >> amount; // line 60
                     
                     if (bank->deposit(amount)) {
                         std::cout << "Deposit successful\n";

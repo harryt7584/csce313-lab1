@@ -4,8 +4,8 @@
 #include <cstring>
 #include <stdexcept>
 
-const int MAX_ACCOUNTS = 10000000;
-const int MAX_TRANSACTIONS = 2;
+const int MAX_ACCOUNTS = 100;
+const int MAX_TRANSACTIONS = 100;
 
 // Transaction structure
 struct Transaction {
