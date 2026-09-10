@@ -77,3 +77,79 @@ vim types.h
 gdb ./banking-system 
 vim types.h 
 vim bank.cpp
+cd part-2
+git status
+ls
+vim main.cpp
+vim bank.cpp
+git status
+git commit -am "progress"
+git push
+git status
+vim bank.cpp
+gdb ./banking-system 
+vim bank.cpp
+make clean
+make
+gdb ./banking-system 
+vim bank.cp
+vim bank.cpp
+make clean
+make
+run
+./banking-system 
+gdb ./banking-system 
+gdb
+gdb ./banking-system 
+vim bank.cp
+vim bank.cpp
+make clean
+make
+run
+./banking-system 
+gdb ./banking-system 
+./banking-system 
+vim types.h 
+make clean
+make
+gdb ./banking-system 
+git status
+git commit -am 'task 3 progress'
+git status
+gdb ./banking-system 
+vim main.cpp
+vim bank.cpp
+vim types.h
+make clea
+make clean
+make
+./banking-system 
+vim types.h
+make clean
+make
+gdb ./banking-system 
+cd
+ls
+scp harrisonletran06@csce313-f26-vm:/ .
+scp harrisonletran06@csce313-f26-vm:/home/
+scp harrisonletran06@csce313-f26-vm:/home/ .
+scp harrisonletran06@csce313-f26-vm:/home/ /home/harrisonletran06/
+ssh -vvv user@remote_host
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+ssh-add /home/harrisonletran06/.ssh/id_rsa
+ssh-keygen -t rsa
+cat .ssh/id_rsa.pub 
+ls
+scp harrisonletran06@scse313-f26-vm:/home/ .
+scp harrisonletran06@csce313-f26-vm:/home/ .
+scp harrisonletran06@scse313-f26-vm:/home/harrisonletran06 .
+scp harrisonletran06@csse313-f26-vm:/home/harrisonletran06/ /home/harrisontran/
+scp harrisonletran06@csce313-f26-vm:/home/harrisonletran06/ /home/harrisontran/
+scp -r harrisonletran06@csce313-f26-vm:/home/harrisonletran06/ /home/harrisontran/
+sudo
+sudo scp -r harrisonletran06@csce313-f26-vm:/home/harrisonletran06/ /home/harrisontran/
+git status
+git commit -am "progress"
+git status
+git push

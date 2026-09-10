@@ -18,7 +18,7 @@ bool Bank::login(int id) {
     // Task 2: Infinite recursion potential
     if (!accounts[id].active) {
         accounts[id] = Account(id); // line 20
-        if (id > 0) login(id); 
+        if (id > 0) login(id); // id + 1 makes an infinite loop
 
     }
     
@@ -28,8 +28,8 @@ bool Bank::login(int id) {
 
 void Bank::logout() {
     // Task 5: Double free potential
-    delete current_account;
-    current_account = nullptr;
+   // delete current_account;
+    current_account = nullptr; // setting a deallocated memory to nullptr
 }
 
 bool Bank::deposit(double amount) {

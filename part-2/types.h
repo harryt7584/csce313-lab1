@@ -51,6 +51,10 @@ public:
         return *this;
     }
     
+    ~Account() {
+	    delete[] transactions; // destructor to deallocate memory
+    }
+    
     bool addTransaction(double amount, const char* desc) {
         transactions[transactionCount].accountId = id;
         transactions[transactionCount].amount = amount;
@@ -62,9 +66,6 @@ public:
         return true;
     }
 
-    ~Account() {
-        
-    }
 };
 
 // Bank class declaration
