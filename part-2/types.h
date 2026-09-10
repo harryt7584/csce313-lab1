@@ -35,7 +35,7 @@ public:
         active = true;
         balance = 0;
         transactionCount = 0;
-	//transactions = nullptr;
+	transactions = nullptr;
     }
 
     Account& operator=(const Account& other) {
@@ -46,7 +46,7 @@ public:
             balance = other.balance;
             active = other.active;
             transactionCount = other.transactionCount;
-	    //transactions = new Transaction[MAX_TRANSACTIONS];
+	    transactions = new Transaction[MAX_TRANSACTIONS]; // intializing array for constructor
         }
         return *this;
     }

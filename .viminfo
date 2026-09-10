@@ -12,9 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1788369863,,"wq"
+|2,0,1789046651,,"wq"
 :q
-|2,0,1788369816,,"q"
+|2,0,1789046594,,"q"
 :q!
 |2,0,1788369804,,"q!"
 :53
@@ -37,44 +37,196 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 		//Transaction* transactions[2];
-|3,1,1,1,1,0,1788369848,"	//Transaction* transactions[2];"
-"-	CHAR	0
+|3,0,1,1,1,0,1788369848,"	//Transaction* transactions[2];"
+""-	CHAR	0
 	/
-|3,0,36,0,1,0,1788369842,"/"
+|3,1,36,0,1,0,1789046649,"/"
 
 # File marks:
-'0  49  6  ~/part-2/types.h
-|4,48,49,6,1788369863,"~/part-2/types.h"
-'1  20  0  ~/part-2/bank.cpp
-|4,49,20,0,1788369816,"~/part-2/bank.cpp"
-'2  1  0  ~/part-2/bank
-|4,50,1,0,1788369804,"~/part-2/bank"
-'3  31  34  ~/part-2/types.h
-|4,51,31,34,1788364885,"~/part-2/types.h"
-'4  31  34  ~/part-2/types.h
-|4,52,31,34,1788364885,"~/part-2/types.h"
-'5  53  11  ~/part-2/types.h
-|4,53,53,11,1788364636,"~/part-2/types.h"
-'6  53  11  ~/part-2/types.h
-|4,54,53,11,1788364636,"~/part-2/types.h"
-'7  53  11  ~/part-2/types.h
-|4,55,53,11,1788364636,"~/part-2/types.h"
-'8  53  11  ~/part-2/types.h
-|4,56,53,11,1788364636,"~/part-2/types.h"
-'9  53  30  ~/part-2/types.h
-|4,57,53,30,1788364609,"~/part-2/types.h"
+'0  38  1  ~/part-2/types.h
+|4,48,38,1,1789046651,"~/part-2/types.h"
+'1  55  0  ~/part-2/types.h
+|4,49,55,0,1789046597,"~/part-2/types.h"
+'2  55  0  ~/part-2/types.h
+|4,50,55,0,1789046597,"~/part-2/types.h"
+'3  55  0  ~/part-2/types.h
+|4,51,55,0,1789046594,"~/part-2/types.h"
+'4  55  0  ~/part-2/types.h
+|4,52,55,0,1789046594,"~/part-2/types.h"
+'5  39  4  ~/part-2/types.h
+|4,53,39,4,1789046359,"~/part-2/types.h"
+'6  39  4  ~/part-2/types.h
+|4,54,39,4,1789046359,"~/part-2/types.h"
+'7  39  4  ~/part-2/types.h
+|4,55,39,4,1789046359,"~/part-2/types.h"
+'8  39  4  ~/part-2/types.h
+|4,56,39,4,1789046359,"~/part-2/types.h"
+'9  39  4  ~/part-2/types.h
+|4,57,39,4,1789046359,"~/part-2/types.h"
 
 # Jumplist (newest first):
+-'  38  1  ~/part-2/types.h
+|4,39,38,1,1789046651,"~/part-2/types.h"
+-'  55  0  ~/part-2/types.h
+|4,39,55,0,1789046641,"~/part-2/types.h"
+-'  55  0  ~/part-2/types.h
+|4,39,55,0,1789046597,"~/part-2/types.h"
+-'  55  0  ~/part-2/types.h
+|4,39,55,0,1789046594,"~/part-2/types.h"
+-'  39  4  ~/part-2/types.h
+|4,39,39,4,1789046553,"~/part-2/types.h"
+-'  39  4  ~/part-2/types.h
+|4,39,39,4,1789046553,"~/part-2/types.h"
+-'  39  4  ~/part-2/types.h
+|4,39,39,4,1789046553,"~/part-2/types.h"
+-'  39  4  ~/part-2/types.h
+|4,39,39,4,1789046359,"~/part-2/types.h"
+-'  49  6  ~/part-2/types.h
+|4,39,49,6,1789046216,"~/part-2/types.h"
+-'  49  6  ~/part-2/types.h
+|4,39,49,6,1789046216,"~/part-2/types.h"
+-'  49  6  ~/part-2/types.h
+|4,39,49,6,1789046216,"~/part-2/types.h"
+-'  49  6  ~/part-2/types.h
+|4,39,49,6,1789046216,"~/part-2/types.h"
 -'  49  6  ~/part-2/types.h
 |4,39,49,6,1788369863,"~/part-2/types.h"
+-'  31  30  ~/part-2/types.h
+|4,39,31,30,1788369819,"~/part-2/types.h"
+-'  31  30  ~/part-2/types.h
+|4,39,31,30,1788369819,"~/part-2/types.h"
+-'  31  30  ~/part-2/types.h
+|4,39,31,30,1788369819,"~/part-2/types.h"
+-'  31  30  ~/part-2/types.h
+|4,39,31,30,1788369819,"~/part-2/types.h"
 -'  31  30  ~/part-2/types.h
 |4,39,31,30,1788369819,"~/part-2/types.h"
 -'  20  0  ~/part-2/bank.cpp
 |4,39,20,0,1788369816,"~/part-2/bank.cpp"
 -'  20  0  ~/part-2/bank.cpp
 |4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  20  0  ~/part-2/bank.cpp
+|4,39,20,0,1788369816,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
+-'  21  0  ~/part-2/bank.cpp
+|4,39,21,0,1788369808,"~/part-2/bank.cpp"
 -'  21  0  ~/part-2/bank.cpp
 |4,39,21,0,1788369808,"~/part-2/bank.cpp"
 -'  21  0  ~/part-2/bank.cpp
@@ -87,194 +239,42 @@
 |4,39,1,0,1788369804,"~/part-2/bank"
 -'  1  0  ~/part-2/bank
 |4,39,1,0,1788369804,"~/part-2/bank"
--'  31  34  ~/part-2/types.h
-|4,39,31,34,1788364885,"~/part-2/types.h"
--'  31  34  ~/part-2/types.h
-|4,39,31,34,1788364885,"~/part-2/types.h"
--'  31  34  ~/part-2/types.h
-|4,39,31,34,1788364885,"~/part-2/types.h"
--'  31  34  ~/part-2/types.h
-|4,39,31,34,1788364885,"~/part-2/types.h"
--'  53  11  ~/part-2/types.h
-|4,39,53,11,1788364675,"~/part-2/types.h"
--'  53  11  ~/part-2/types.h
-|4,39,53,11,1788364675,"~/part-2/types.h"
--'  53  11  ~/part-2/types.h
-|4,39,53,11,1788364675,"~/part-2/types.h"
--'  53  11  ~/part-2/types.h
-|4,39,53,11,1788364675,"~/part-2/types.h"
--'  53  11  ~/part-2/types.h
-|4,39,53,11,1788364675,"~/part-2/types.h"
--'  53  11  ~/part-2/types.h
-|4,39,53,11,1788364636,"~/part-2/types.h"
--'  53  11  ~/part-2/types.h
-|4,39,53,11,1788364636,"~/part-2/types.h"
--'  53  11  ~/part-2/types.h
-|4,39,53,11,1788364636,"~/part-2/types.h"
--'  53  11  ~/part-2/types.h
-|4,39,53,11,1788364636,"~/part-2/types.h"
--'  53  30  ~/part-2/types.h
-|4,39,53,30,1788364609,"~/part-2/types.h"
--'  53  30  ~/part-2/types.h
-|4,39,53,30,1788364609,"~/part-2/types.h"
--'  53  30  ~/part-2/types.h
-|4,39,53,30,1788364609,"~/part-2/types.h"
--'  53  30  ~/part-2/types.h
-|4,39,53,30,1788364609,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  30  28  ~/part-2/types.h
-|4,39,30,28,1788364433,"~/part-2/types.h"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
--'  52  16  ~/part-2/main.cpp
-|4,39,52,16,1788364431,"~/part-2/main.cpp"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
+-'  1  0  ~/part-2/bank
+|4,39,1,0,1788369804,"~/part-2/bank"
 
 # History of marks within files (newest to oldest):
 
 > ~/part-2/types.h
-	*	1788369859	0
-	"	49	6
-	^	49	7
-	.	49	6
+	*	1789046650	0
+	"	38	1
+	^	39	5
+	.	38	1
 	+	52	24
 	+	23	29
 	+	53	2
@@ -282,7 +282,10 @@
 	+	38	2
 	+	31	8
 	+	55	0
-	+	49	6
+	+	49	92
+	+	39	5
+	+	49	5
+	+	38	1
 
 > ~/part-2/bank.cpp
 	*	1788369814	0
