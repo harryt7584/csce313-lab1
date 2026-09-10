@@ -17,7 +17,7 @@ bool Bank::login(int id) {
     
     // Task 2: Infinite recursion potential
     if (!accounts[id].active) {
-        accounts[id] = Account(id);
+        accounts[id] = Account(id); // :wq
         if (id > 0) login(id + 1); 
     }
     
